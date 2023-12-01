@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página de Perfil</title>
+    <!-- Estilos CSS (pode ser vinculado a um arquivo externo) -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            text-align: left;
+            padding: 20px;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #add8e6;
+            padding: 10px;
+            color: white;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f2f2f2;
+        }
+        .capa-livro {
+            max-width: 100%;
+            height: 100%; /* A imagem ocupará 100% da altura do elemento .grid-item */
+            border-radius: 4px;
+            object-fit: cover; /* Ajusta a imagem mantendo a proporção e cortando se necessário */
+            margin-bottom: 10px;
+        }
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Alinhar os itens ao centro */
+        }
+        .grid-item {
+            flex: 0 0 calc(20% - 10px); /* 20% para cinco itens por linha e subtraindo a margem */
+            margin: 0 5px;
+            text-align: center;
+            height: 200px; /* Altura fixa para os grid-items */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho da Página -->
+    <header>
+        <!-- Botão para a home page -->
+        <a href="home leitura.html"><button>Voltar para Home</button></a>
+        <h1>Meu Perfil</h1>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="completo.html">Completo</a>
+        <a href="lendo.html">Lendo</a>
+        <a href="vou-ler.html">Vou Ler</a>
+        <a href="perdi.html">Perdi Aonde Parei</a>
+        <a href="dropei.html">Dropei</a>
+        <a href="hiatus.html">Hiatus</a>
+    </nav>
+
+    <!-- Conteúdo Principal - Seção 1 -->
+    <section id="completo">
+        <h2>Lista Completa</h2>
+        <!-- Adicione a imagem da capa do livro aqui -->
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="capa-livro" src="https://yugenmangas.net.br/media/covers/a164427046b7440684eb253a132ac6e1.png" alt="Capa do Livro 1">
+                <p>Título do Livro 1</p>
+            </div>
+            <div class="grid-item">
+                <img class="capa-livro" src="https://cdn.wallpapersafari.com/78/90/5298Ha.jpg" alt="Capa do Livro 2">
+                <p>Título do Livro 2</p>
+            </div>
+			<div class="grid-item">
+                <img class="capa-livro" src="https://yugenmangas.net.br/media/covers/a164427046b7440684eb253a132ac6e1.png" alt="Capa do Livro 1">
+                <p>Título do Livro 1</p>
+            </div>
+            <div class="grid-item">
+                <img class="capa-livro" src="https://cdn.wallpapersafari.com/78/90/5298Ha.jpg" alt="Capa do Livro 2">
+                <p>Título do Livro 2</p>
+            </div>
+			<div class="grid-item">
+                <img class="capa-livro" src="https://yugenmangas.net.br/media/covers/a164427046b7440684eb253a132ac6e1.png" alt="Capa do Livro 1">
+                <p>Título do Livro 1</p>
+            </div>
+            <div class="grid-item">
+                <img class="capa-livro" src="https://cdn.wallpapersafari.com/78/90/5298Ha.jpg" alt="Capa do Livro 2">
+                <p>Título do Livro 2</p>
+            </div>
+			<div class="grid-item">
+                <img class="capa-livro" src="https://yugenmangas.net.br/media/covers/a164427046b7440684eb253a132ac6e1.png" alt="Capa do Livro 1">
+                <p>Título do Livro 1</p>
+            </div>
+            <div class="grid-item">
+                <img class="capa-livro" src="https://cdn.wallpapersafari.com/78/90/5298Ha.jpg" alt="Capa do Livro 2">
+                <p>Título do Livro 2</p>
+            </div>
+			<div class="grid-item">
+                <img class="capa-livro" src="https://yugenmangas.net.br/media/covers/a164427046b7440684eb253a132ac6e1.png" alt="Capa do Livro 1">
+                <p>Título do Livro 1</p>
+            </div>
+            <div class="grid-item">
+                <img class="capa-livro" src="https://cdn.wallpapersafari.com/78/90/5298Ha.jpg" alt="Capa do Livro 2">
+                <p>Título do Livro 2</p>
+            </div>
+            <!-- Adicione mais imagens e títulos conforme necessário -->
+        </div>
+    </section>
+
+    <!-- Rodapé da Página -->
+    <footer>
+        <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
