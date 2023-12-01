@@ -8,7 +8,7 @@
     <style>
         body {
             /* Adiciona a imagem de fundo */
-            background-image: url 'https://i.pinimg.com/564x/7a/d4/03/7ad403a3a4703858989c6379dfb40dc9.jpg';
+            background-image: url('https://i.pinimg.com/564x/7a/d4/03/7ad403a3a4703858989c6379dfb40dc9.jpg');
             
             /* Define como a imagem de fundo deve ser redimensionada */
             background-size: cover;
@@ -53,25 +53,6 @@
             margin-bottom: 10px;
             cursor: pointer; /* Adiciona um indicador de cursor ao passar por cima */
         }
-        .lista-livros {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
-            justify-content: center;
-            align-items: center;
-        }
-        .lista-livros-conteudo {
-            background-color: white;
-            padding: 20px;
-            max-width: 80%;
-            max-height: 80%;
-            overflow-y: auto;
-            border-radius: 8px;
-        }
     </style>
 </head>
 <body>
@@ -100,30 +81,10 @@
         <!-- Adicione mais imagens conforme necessário -->
     </section>
 
-    <!-- Lista de Livros (popup) -->
-    <div class="lista-livros" id="listaLivros">
-        <div class="lista-livros-conteudo">
-            <h2>Lista Completa de Livros</h2>
-            <!-- Adicione suas informações de livro aqui -->
-            <img class="capa-livro" src="https://yugenmangas.net.br/media/covers/a164427046b7440684eb253a132ac6e1.png" alt="Capa do Livro 1">
-            <!-- Adicione mais imagens conforme necessário -->
-            <p>Informações do Livro 1</p>
-            <!-- Adicione mais informações conforme necessário -->
-        </div>
-    </div>
-
     <!-- Rodapé da Página -->
     <footer>
         <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
     </footer>
-
-    <!-- Scripts JavaScript -->
-    <script>
-        // Função para exibir a lista de livros ao carregar a página
-        document.addEventListener("DOMContentLoaded", function() {
-            var listaLivros = document.getElementById("listaLivros");
-            listaLivros.style.display = "flex";
-        });
-    </script>
 </body>
 </html>
+
